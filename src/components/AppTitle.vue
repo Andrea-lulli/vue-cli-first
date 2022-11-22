@@ -2,7 +2,7 @@
 
 <template>
 <div>
-    <h2>La mia prima app con Vue CLI!</h2>
+    <h1>La mia prima app con Vue CLI!</h1>
 </div>
     
 </template>

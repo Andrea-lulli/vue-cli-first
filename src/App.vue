@@ -36,5 +36,7 @@ export default {
 }
 #Apphero {
   background-color: yellow;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 </style>
