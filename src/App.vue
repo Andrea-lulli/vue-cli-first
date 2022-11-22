@@ -3,16 +3,24 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <AppTitle />
+    <div id="Apphero">
+    <AppHero />
   </div>
+  </div>
+
+  
 </template>
 
 <script>
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
+
 
 export default {
   name: 'App',
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 </script>
@@ -25,5 +33,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#Apphero {
+  background-color: yellow;
 }
 </style>
